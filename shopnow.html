@@ -1,0 +1,442 @@
+<html>
+ <head>
+  <title>
+   Product Grid
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-card p {
+            font-size: 14px;
+            color: #777;
+            margin: 5px 0;
+        }
+        .product-card .price {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-card .price del {
+            color: #999;
+            margin-left: 5px;
+        }
+        .product-card .rating {
+            color: #f39c12;
+            margin: 5px 0;
+        }
+        .product-card .cart-icon {
+            color: #333;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="product-card">
+    <img alt="Girls Heel" height="200" src="https://storage.googleapis.com/a1aa/image/0YF7xDbdSXr3FNu8kPr0CrcEWNZN5I8f9Vj4DgDvZ1Q4On4JA.jpg" width="200"/>
+    <h3>
+     Girls Heel
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $12.3
+     <del>
+      $15.5
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Men Hoodie" height="200" src="https://storage.googleapis.com/a1aa/image/cKTN43A1PIJyK9ulrVdOGAjOuaIkf2pTYwnZ0Xf9UJvydOxTA.jpg" width="200"/>
+    <h3>
+     Men Hoodie
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $3.2
+     <del>
+      $5
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Smart Watch" height="200" src="https://storage.googleapis.com/a1aa/image/tsTv9qZxCF4pP92AOmfl29hIrnXeJ4pEiLUYp5Gt0gxtdOxTA.jpg" width="200"/>
+    <h3>
+     Smart Watch
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $50.10
+     <del>
+      $69
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Men T-Shirt" height="200" src="https://storage.googleapis.com/a1aa/image/QxQ7KVS6v8p0FpozMVAEhKtM66PRu5Le98XtcDZOhg66On4JA.jpg" width="200"/>
+    <h3>
+     Men T-Shirt
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $10.5
+     <del>
+      $15
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Hand Bag" height="200" src="https://storage.googleapis.com/a1aa/image/ri0y0IXMuqrWJZjTsiWvxlT1K1JwrEndtaVmPc4JIEWanT8E.jpg" width="200"/>
+    <h3>
+     Hand Bag
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $100.5
+     <del>
+      $120.30
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Sport Shoes" height="200" src="https://storage.googleapis.com/a1aa/image/OXhz7Lfk91yNQClv8KMrJM7nsRojwP2e4UmKroczCP2qdOxTA.jpg" width="200"/>
+    <h3>
+     Sport Shoes
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $32.50
+     <del>
+      $35.20
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Girls Heel" height="200" src="https://storage.googleapis.com/a1aa/image/0YF7xDbdSXr3FNu8kPr0CrcEWNZN5I8f9Vj4DgDvZ1Q4On4JA.jpg" width="200"/>
+    <h3>
+     Girls Heel
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $20.10
+     <del>
+      $30.20
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Means Jeans" height="200" src="https://storage.googleapis.com/a1aa/image/49bU9cMEeox6a6fKfbwHjTxUntwApIShF9CeU2AFF1dx25EPB.jpg" width="200"/>
+    <h3>
+     Means Jeans
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $65.50
+     <del>
+      $100
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Dark Pant" height="200" src="https://storage.googleapis.com/a1aa/image/JN3vnaOEdJ5HMJdSvkFV3RV874EqrSxcPUtuWFORQgzcnT8E.jpg" width="200"/>
+    <h3>
+     Dark Pant
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $50.5
+     <del>
+      $70
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Mwalk Billies" height="200" src="https://storage.googleapis.com/a1aa/image/TMvjXn0lUKp5P95eTyPtXSm7DgGCktIuvB5ak2qzlLi7On4JA.jpg" width="200"/>
+    <h3>
+     Mwalk Billies
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $20.5
+     <del>
+      $30
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Sweet Shirt" height="200" src="https://storage.googleapis.com/a1aa/image/qeecEqGgh5kjV08aRj6S4d3HlqZojN9IZcHWqKfOAej425EPB.jpg" width="200"/>
+    <h3>
+     Sweet Shirt
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $40.5
+     <del>
+      $50
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+   <div class="product-card">
+    <img alt="Black T-Shirt" height="200" src="https://storage.googleapis.com/a1aa/image/QLYTILVSfaTdWCqEjPbNVTX3xXKXbbVoinEXnm2Ecne2dOxTA.jpg" width="200"/>
+    <h3>
+     Black T-Shirt
+    </h3>
+    <p>
+     Lorem ipsum dolor sit amet.
+    </p>
+    <div class="rating">
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+     <i class="fas fa-star">
+     </i>
+    </div>
+    <div class="price">
+     $30.5
+     <del>
+      $40
+     </del>
+    </div>
+    <div class="cart-icon">
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
